@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    color: white;
+    padding-top: 1rem;
+    background-color: #255EE9;
+
+}
+
+nav{
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.container{
+    max-width: 1020px;
+    margin: auto;
+}
+
+header nav .container{
+    display: flex;
+}
+
+.nav-links,.nav-login,.nav-logo{
+    align-self: center;
+}
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav-links ul a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+}
+
+.nav-logo,.nav-login{
+    width: 20%;
+}
+.nav-links{
+    flex-grow: 1;
+}
+
+.nav-login{
+    text-align: right;
+}
+
+.button-style{
+    border: none;
+    padding: .7rem 1rem;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-section{
+    background-image: url(../imgs/jumbo.png);
+    width: 60%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin: auto;
+}
+
+.hero-section .container{
+    max-width: 680px;
+}
+.hero-section h1,p{
+    text-align: center;
+}
+
+.hero-section h1{
+    padding: 50px;
+    font-size: 2.5rem;
+}
+
+.hero-section p{
+    line-height: 30px;
+}
+
+.main-buttons{
+    padding: 30px;
+    text-align: center;
+}
+
+.main-buttons button:last-child{
+    background-color: #23272A;
+    color: white;
+    margin-left: 20px;
+}
