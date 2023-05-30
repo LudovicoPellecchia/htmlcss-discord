@@ -169,3 +169,20 @@ section{
     color: white;
     background-color: #7289DA;
 }
+
+footer{
+    color: white;
+    background-color: #23272A;
+}
+
+.col-large .flag{
+    height: 20px;
+}
+
+
+
+footer h3{
+    padding: 30px 0 30px 0;
+    color: #7289D9;
+}
+
