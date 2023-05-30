@@ -76,16 +76,16 @@ header nav .container{
 .hero-section .container{
     max-width: 680px;
 }
-.hero-section h1 p{
-    text-align: center;
-}
+
 
 .hero-section h1{
+    text-align: center;
     padding: 50px;
     font-size: 3.3rem;
 }
 
 .hero-section p{
+    text-align: center;
     line-height: 30px;
 }
 
