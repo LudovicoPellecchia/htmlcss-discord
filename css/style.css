@@ -171,6 +171,8 @@ section{
 }
 
 footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
     color: white;
     background-color: #23272A;
 }
@@ -179,10 +181,56 @@ footer{
     height: 20px;
 }
 
-
-
 footer h3{
-    padding: 30px 0 30px 0;
+    padding-bottom: 30px;
     color: #7289D9;
 }
 
+.language span{
+    padding-left: 10px;
+    vertical-align: top;
+}
+.social-icons{
+    padding-top: 20px;
+}
+.social-icons span{
+    padding-right: 20px;
+}
+
+.col.col-large{
+    width: 15%;
+}
+.col{
+    flex-grow: 1;
+}
+footer .col-large{
+    flex-grow: 2;
+}
+
+.col ul li{
+    font-size: .8rem;
+    list-style: none;
+}
+
+.col ul li a{
+    line-height: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.col ul li:first-child a{
+    color: #7289D9;
+}
+
+
+.container.secondary-footer{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-btn{
+    color: white;
+    background-color: #7289DA;
+}
