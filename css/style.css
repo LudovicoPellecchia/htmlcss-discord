@@ -67,6 +67,7 @@ header nav .container{
     background-image: url(../imgs/jumbo.png);
     background-size:cover;
     background-position: center;
+    height: 400px;
 }
 
 .hero-section .container{
